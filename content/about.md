@@ -1,6 +1,6 @@
 ---
 title: "About Me"
-date: "2017-08-19T20:09:28+08:00"
+date: "2022-11-25T20:09:28+08:00"
 type: "about"
 toc: false
 ---
@@ -9,15 +9,9 @@ toc: false
 
 ```json
 {
-  "Name": "Kevin Tan",
-  "Hobbies": ["Coding", "Movie", "Piano", "Linux"],
-  "Location": "Hangzhou",
-  "Company": "Netease",
-  "School": "Zhejiang University",
-  "Contacts": {
-    "Email": "stkevintan@zju.edu.cn",
-    "Telegram": "@kevinsfork",
-    "Weibo": "@kevinclasky"
-  }
+  "Name": "Junoth",
+  "Hobbies": ["Coding", "Movie", "History", "Linux"],
+  "Location": "Seattle",
+  "Company": "Oracle",
 }
 ```

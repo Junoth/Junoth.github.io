@@ -1,6 +1,6 @@
 baseURL = "https://junoth.github.io"
 languageCode = "zh-cn"
-title = "Hugo Canoe Theme"
+title = "Junoth"
 
 theme = "canoe"
 
@@ -11,22 +11,22 @@ enableGitInfo = true
 hasCJKLanguage = true
 
 [params]
-  author = "Kevin Tan"
-  description = "Tempora mutantur, nos et mutamur in illis ..."
-  copyright = "Copyleft@Kevin Tan"
+  author = "Junoth"
+  description = "Nihilist"
+  copyright = "Copyleft@Junoth"
  # date format convert: http://fuckinggodateformat.com/
   dateFormat = "2006年01月_2日"
   # 用户头像地址, user avatar's url
-  logo = "/img/avatar.jpg"
+  logo = "/img/avator.jpeg"
   
   # 首页横幅的背景链接, home banner's background url.
-  splash_bg = "/img/bg.jpg"
+  splash_bg = "/img/bg.jpeg"
 
   # 是否使用一言, if using hitokoto(dynamic moto in splash screen)
-  hitokoto = true
+  hitokoto =  false
 
   # 是否使用Canvas动态背景, if using canvas dynamic background (nest.js)
-  nest_bg = false
+  nest_bg = true 
 
   # 是否使用动态加载效果, if using fade effect while loading (scroll-reveal.js)
   reveal_effect = true
@@ -34,7 +34,7 @@ hasCJKLanguage = true
 # comment settings, support 'valine' and 'disqus'.
 # more about 'valine', ref: http://valine.js.org/
 [params.comment]
-  type = "valine" # or 'disqus'
+  type = "disqus" # or 'disqus'
 
 [params.comment.valine]
   id = "< the appId >"
@@ -79,17 +79,13 @@ hasCJKLanguage = true
 [[menu.social]]
   pre = "<svg class='svg-icons svg-icons-github'><use xlink:href='#svg-icons-github'></use></svg>"
   name = "Github"
-  url = "https://github.com/stkevintan"
+  url = "https://github.com/junoth"
 
 [[menu.social]]
   pre = "<svg class='svg-icons svg-icons-twitter'><use xlink:href='#svg-icons-twitter'></use></svg>"
   name = "Twitter"
-  url = "https://twitter.com/kevinsfork"
+  url = "https://twitter.com/MiaoYuhang"
 
-[[menu.social]]
-  pre = "<svg class='svg-icons svg-icons-sina-weibo'><use xlink:href='#svg-icons-sina-weibo'></use></svg>"
-  name = "Weibo"
-  url = "http://weibo.com/kevinclasky"
 
 [blackfriday]
   extensions = ["laxHtmlBlocks","noEmptyLineBeforeBlock"]
