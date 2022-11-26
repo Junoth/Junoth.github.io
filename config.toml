@@ -10,8 +10,6 @@ enableGitInfo = true
 # if true, auto-detect Chinese/Japanese/Korean Languages in the content. (.Summary and .WordCount can work properly in CJKLanguage)
 hasCJKLanguage = true
 
-paginatePath = "posts"
-
 [params]
   author = "Kevin Tan"
   description = "Tempora mutantur, nos et mutamur in illis ..."
